@@ -73,4 +73,4 @@ if __name__ == '__main__':
 	for _ in items:
 		received_items.append(pop())
 
-	print(reversed(items), received_items)
+	print(list(reversed(items)), received_items)
